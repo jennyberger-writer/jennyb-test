@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jenny Berger, Technical Writer – Colophon</title>
+    <link>http://localhost:1313/colophon/</link>
+    <description>Recent content in Colophon on Jenny Berger, Technical Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2024 20:32:40 -0500</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/colophon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

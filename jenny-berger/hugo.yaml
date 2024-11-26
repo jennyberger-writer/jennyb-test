@@ -1,0 +1,51 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Jenny Berger, Technical Writer
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - name: Documentation
+      pageRef: /docs
+      weight: 1
+    - name: Portfolio
+      pageRef: /portfolio
+      weight: 2
+    - name: Blog
+      pageRef: /blog
+      weight: 3
+    - name: About
+      pageRef: /about
+      weight: 4
+    - name: Search
+      weight: 5
+      params:
+        type: search
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/jennyberger-writer"
+      params:
+        icon: github
+
+  sidebar:
+    - name: Extra bits
+      params:
+        type: separator
+      weight: 1
+    - name: "Colophon"
+      pageRef: "/colophon"
+      weight: 2
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/jlb-profile-2023.svg
+      dark: images/jlb-profile-2023.svg
+      link: /
+      width: 70
+      height: 50
